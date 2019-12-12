@@ -1,0 +1,5 @@
+Strings are defined as an array of characters. The difference between a character array and a string is the string is terminated with a special character ‘\0’.
+Declaration of strings: Declaring a string is as simple as declaring a one dimensional array. Below is the basic syntax for declaring a string.
+char str_name[size];
+In the above syntax str_name is any name given to the string variable and size is used define the length of the string, i.e the number of characters strings will store. Please keep in mind that there is an extra terminating character which is the Null character (‘\0’) used to indicate termination of string which differs strings from normal character arrays.
+Unlike arrays we do not need to print a string, character by character. The C language does not provide an inbuilt data type for strings but it has an access specifier “%s” which can be used to directly print and read strings
